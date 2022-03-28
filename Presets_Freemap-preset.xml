@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Freemap Slovakia" version="1.16_2021-11-25" shortdescription="Freemap Slovakia" description="Presets for Slovak mappers" baselanguage="sk" icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVR4nKXTe2jNDRzH8c/OdpzddIbMZdNm5Pz2w8zGenZ2hnPZGY9kzAyP28xkS6T8IRYbIZeS+yy3XB45h5kTfzChmRGPpZH8gZSYpydshRLt7Q+jnqKUPz5/ffu+/vn0EaDfyW89/xTIHzo00m+aK/2meTbPNA/4UlNnSgqXFPZLQJ5pNu4e0Z1Atgg4xe5R0cwf1q9ZUnwXZPkfMGlBbuW8WRnPp8/JuulxZ25ZNzyOy0Xi3QnxMSCero+gzi3KHNG70hITR0uK+g5UFiTPDLhEw1QLoXyxf0wUR52RvNpnhZYCuD0eGnN4uqEXOzJsTE1Oxudw4DGMUFpCwkhtzrHfu1shuDAIQnb+q4mhab54/7fgwQx4Ug6famhrXk4wM4xQgpWG2Gg2pqbiNYxHWp3Z81lDYTc+nhkM/xTCgznQWszr834+nOrPnSUW7q81eHNAPK4WTXMtBF2iyesgzzSRzzA2bc2IIZQfzpvDBm07rby/MQNai6E+Fi454GYeXHPCpTSoT6KjJpb6CWLFiLh2eRZ6cirHxlNXJKizQeM4OGeHliI6jti5VWqh83I23CqA29OhuRCuTqTtYgVHs9Uuf7l/UPX4eFqXC073heYCaJkNL6robN9O67ax3CjpxuMqO//u6UvHMYMPocncXZnOnlG6J0ClE1OunhknHq6K4O3BHnyuz+FlrZMrpUlsz7JR/dcQDhb156QviqBLBHItbHTF4O6jiq9dSvYKb2Jo1x+2zqBLBF1ib5aVsjT72wHDBlzL+DOd0uopbA6Uc/z6GqoOLcZZ7ETSwG9AuKRISekJPSKXDoyzrZZUJmmaJG9KZsokd4m71rPQ0+Zb5MW3yIe7xL1MkvUbECbJIqmnpCRJDknDJSVL6i0ppusenjs7t5+kiK5Yfr6yHwznR/kCYKIipvPgBGIAAAAASUVORK5CYII=">
+	<group name="Freemap" icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVR4nKXTe2jNDRzH8c/OdpzddIbMZdNm5Pz2w8zGenZ2hnPZGY9kzAyP28xkS6T8IRYbIZeS+yy3XB45h5kTfzChmRGPpZH8gZSYpydshRLt7Q+jnqKUPz5/ffu+/vn0EaDfyW89/xTIHzo00m+aK/2meTbPNA/4UlNnSgqXFPZLQJ5pNu4e0Z1Atgg4xe5R0cwf1q9ZUnwXZPkfMGlBbuW8WRnPp8/JuulxZ25ZNzyOy0Xi3QnxMSCero+gzi3KHNG70hITR0uK+g5UFiTPDLhEw1QLoXyxf0wUR52RvNpnhZYCuD0eGnN4uqEXOzJsTE1Oxudw4DGMUFpCwkhtzrHfu1shuDAIQnb+q4mhab54/7fgwQx4Ug6famhrXk4wM4xQgpWG2Gg2pqbiNYxHWp3Z81lDYTc+nhkM/xTCgznQWszr834+nOrPnSUW7q81eHNAPK4WTXMtBF2iyesgzzSRzzA2bc2IIZQfzpvDBm07rby/MQNai6E+Fi454GYeXHPCpTSoT6KjJpb6CWLFiLh2eRZ6cirHxlNXJKizQeM4OGeHliI6jti5VWqh83I23CqA29OhuRCuTqTtYgVHs9Uuf7l/UPX4eFqXC073heYCaJkNL6robN9O67ax3CjpxuMqO//u6UvHMYMPocncXZnOnlG6J0ClE1OunhknHq6K4O3BHnyuz+FlrZMrpUlsz7JR/dcQDhb156QviqBLBHItbHTF4O6jiq9dSvYKb2Jo1x+2zqBLBF1ib5aVsjT72wHDBlzL+DOd0uopbA6Uc/z6GqoOLcZZ7ETSwG9AuKRISekJPSKXDoyzrZZUJmmaJG9KZsokd4m71rPQ0+Zb5MW3yIe7xL1MkvUbECbJIqmnpCRJDknDJSVL6i0ppusenjs7t5+kiK5Yfr6yHwznR/kCYKIipvPgBGIAAAAASUVORK5CYII=">
+		<group name="Lesné cesty">
+			<item name="Track 1" icon="track1.svg">
+				<key key="highway" value="track"/>
+				<key key="tracktype" value="grade1"/>
+			</item>
+			<item name="Track 2" icon="track2.svg">
+				<key key="highway" value="track"/>
+				<key key="tracktype" value="grade2"/>
+			</item>
+			<item name="Track 3" icon="track3.svg">
+				<key key="highway" value="track"/>
+				<key key="tracktype" value="grade3"/>
+			</item>
+			<item name="Track 4" icon="track4.svg">
+				<key key="highway" value="track"/>
+				<key key="tracktype" value="grade4"/>
+			</item>
+			<item name="Track 5" icon="track5.svg">
+				<key key="highway" value="track"/>
+				<key key="tracktype" value="grade5"/>
+			</item>
+		</group>
+		<group name="Zdroj">
+			<item name="prieskum (GPS)" icon="survey.svg">
+				<key key="source" value="survey"/>
+			</item>
+			<item name="Ortofotomozaika SR" icon="ofmozaika.png">
+				<key key="source" value="Ortofotomozaika SR"/>
+			</item>
+			<item name="Bing" icon="bing.svg">
+				<key key="source" value="Bing"/>
+			</item>
+			<item name="KaPor" icon="kapor.png">
+				<key key="source" value="kapor2"/>
+			</item>
+			<item name="Strava Heatmap">
+				<key key="source" value="Strava"/>
+			</item>
+			<item name="DMR 5.0" icon="DMR.png">
+				<key key="source" value="ÚGKK SR DMR 5.0"/>
+			</item>
+		</group>
+		<item name="Turistika" type="relation" icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAgMAAAAOFJJnAAAACVBMVEUAAGf/AAD///8pCBZ1AAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAfSURBVBjTY2CAAa1VYLCCagw4EA0FgxCqMejgZhgAAJOpbBzJD259AAAAAElFTkSuQmCC">
+			<label text="Slovenské turistické trasy"/>
+			<space/>
+			<key key="type" value="route"/>
+			<key key="route" value="hiking"/>
+			<text key="name" text="Názov" delete_if_empty="true"/>
+			<text key="description" text="Popis" delete_if_empty="true"/>
+			<text default="KST" key="operator" text="Operátor"/>
+			<combo key="colour" text="Farba" values="red,blue,green,yellow" display_values="červená,modrá,zelená,žltá" delete_if_empty="true"/>
+			<combo key="symbol" text="Symbol" values="major,local,spring,peak,ruin,cave,interesting_object,shelter,education" display_values="štandardná pásová,miestné značenie,prameň,vrchol,zrúcanina,jaskyňa,zaujímavý objekt,útulňa,náučný chodník" delete_if_empty="true"/>
+			<combo key="osmc:symbol" text="OSMC Symbol" values="red:white:red_bar,red:white:red_corner,red:white:red_bowl,red:white:red_triangle,red:white:red_L,red:white:red_arch,red:white:red_turned_T,red:white:red_house,blue:white:blue_bar,blue:white:blue_corner,blue:white:blue_bowl,blue:white:blue_triangle,blue:white:blue_L,blue:white:blue_arch,blue:white:blue_turned_T,blue:white:blue_house,green:white:green_bar,green:white:green_backslash,green:white:green_corner,green:white:green_bowl,green:white:green_triangle,green:white:green_L,green:white:green_arch,green:white:green_turned_T,green:white:green_house,yellow:white:yellow_bar,yellow:white:yellow_corner,yellow:white:yellow_bowl,yellow:white:yellow_triangle,yellow:white:yellow_L,yellow:white:yellow_arch,yellow:white:yellow_turned_T,yellow:white:yellow_house" display_values="červené pásové značenie,červené miestne značenie,červená značka k prameňu,červená značka k vrcholu,červená značka k zrúcanine,červená značka k jaskyni,červená značka k inému zaujimavému miestu,červená značka k útulni,modré pásové značenie,modré miestne značenie,modrá značka k prameňu,modrá značka k vrcholu,modrá značka k zrúcanine,modrá značka k jaskyni,modrá značka k inému zaujimavému miestu,modrá značka k útulni,zelené pásové značenie,náučný chodník (zelený),zelené miestne značenie,zelená značka k prameňu,zelená značka k vrcholu,zelená značka k zrúcanine,zelená značka k jaskyni,zelená značka k inému zaujimavému miestu,zelená značka k útulni,žlté pásové značenie,žlté miestne značenie,žltá značka k prameňu,žltá značka k vrcholu,žltá značka k zrúcanine,žltá značka k jaskyni,žltá značka k inému zaujimavému miestu,žltá značka k útulni" delete_if_empty="true"/>
+			<text key="ref" text="Číslo trasy" delete_if_empty="true"/>
+			<combo key="network" text="Sieť" values="lwn,rwn,nwn,iwn" display_values="lokálna,regionálna,národná,medzinárodná" delete_if_empty="true"/>
+			<check key="fixme" text="Nekompletná" value_on="continue" disable_off="true" />
+			<space/>
+			<link text="Pomoc na Wiki" href="https://wiki.openstreetmap.org/wiki/WikiProject_Slovakia/Hiking_routes"/>
+		</item>
+                <item name="Cyklotrasa" type="relation" icon="C.png">
+			<label text="Nová cyklotrasa"/>
+			<space/>
+			<key key="type" value="route"/>
+			<key key="route" value="bicycle"/>
+			<text key="name" text="Názov" delete_if_empty="true"/>
+			<text key="ref" text="Číslo trasy" delete_if_empty="true"/>
+			<combo key="colour" text="Farba" values="red,blue,green,yellow,white" display_values="červená,modrá,zelená,žltá,biela" delete_if_empty="true"/>
+			<text default="SCK" key="operator" text="Operátor"/>
+			<combo key="network" text="Sieť" values="lcn,rcn,ncn,icn" display_values="lokálna,regionálna,národná,medzinárodná" delete_if_empty="true"/>
+			<check key="complete" text="Kompletná" value_on="yes" value_off="no" />
+			<text key="description" text="Popis" delete_if_empty="true"/>
+                        <check key="state" text="Navrhovaná" value_on="proposed" disable_off="true" />
+			<space/>
+			<link text="Pomoc na Wiki" href="https://wiki.openstreetmap.org/wiki/WikiProject_Slovakia/Cycle_routes"/>
+		</item>
+	</group>
+</presets>
+

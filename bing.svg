@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" height="14" viewBox="0 0 16 14" width="16" version="1.1" id="svg16" sodipodi:docname="bing.svg" inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata id="metadata22">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs20" />
+  <sodipodi:namedview inkscape:document-rotation="0" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1847" inkscape:window-height="1061" id="namedview18" showgrid="false" inkscape:zoom="11.313709" inkscape:cx="27.377145" inkscape:cy="-4.732207" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="svg16" />
+  <path style="fill:#008373;fill-opacity:1;stroke:none;stroke-width:1" d="M 3.8195698,1.0234708 L 6.2072759,1.8634459 V 10.268179 L 9.5704708,8.3266811 L 7.9215681,7.5530241 L 6.8813015,4.9638422 L 12.18043,6.8255193 V 9.532106 L 6.2086376,12.976529 L 3.8195698,11.647596 Z" id="path2998" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccccccc" />
+</svg>
