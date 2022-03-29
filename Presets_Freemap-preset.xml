@@ -71,6 +71,32 @@
 	<text default="https://www.packeta.sk/pobocky/" key="website" sk.text="URL Z-Boxu" text="URL"/>
       </item>
     </group>
+    <group icon="https://wiki.openstreetmap.org/w/images/d/d5/Rental-bicycle-16.svg" sk.name="Požičovňa/prenájom bicyklov" name="Bicycle Rental" >
+      <item icon="https://slovnaftbajk.sk/favicon-32x32.png" name="SlovnaftBAjk" type="node">
+        <label text="SlovnaftBAjk"/>
+        <key key="amenity" value="bicycle_rental"/>
+        <key key="operator" value="Slovnaft Mobility Services, s.r.o."/>
+        <key key="network" value="Slovnaft BAjk"/>
+        <key key="website" value="https://slovnaftbajk.sk"/>
+        <text default="" key="name" sk.text="Názov stanice" text="Station name"/>
+        <text default="" key="ref" sk.text="Číslo stanice" text="Station id"/>
+        <text default="" key="capacity" sk.text="Kapacita" text="Capacity"/>
+	<link href="https://slovnaftbajk.sk/mapa-stanic" sk.text="Mapa staníc" text="Station map" />
+      </item>
+      <item icon="https://whitebikes.info/img/icon.png" name="WhiteBikes" type="node">
+        <label text="WhiteBikes"/>
+        <key key="amenity" value="bicycle_rental"/>
+        <key key="operator" value="WhiteBikes"/>
+        <key key="network" value="WhiteBikes Bratislava"/>
+        <key key="website" value="https://whitebikes.info/"/>
+	<text default="WhiteBikes - UPPERCASE_NAME" key="name" sk.text="Názov stojanu" text="Stand name"/>
+        <text default="" key="ref" sk.text="Číslo stojanu" text="Stand id"/>
+        <text default="REF UPPERCASE_NAME" key="ref:whitebikes" sk.text="Číslo a názov stojanu" text="Stand id + name"/>
+        <text default="" key="note" sk.text="Poznámka (web whitebikes, anglicky)" text="Note (whitebikes website)"/>
+	<link href="https://whitebikes.info/command.php?action=map:markers" sk.text="Zoznam stojanov" text="List of stands" />
+	<link href="https://whitebikes.info/" sk.text="Web WhiteBikes (vyžaduje prihlásenie)" text="WhiteBikes website (requires login)" />
+      </item>
+    </group>
     <group name="Lesné cesty">
       <item icon="track1.svg" name="Track 1">
         <key key="highway" value="track"/>
