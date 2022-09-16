@@ -58,6 +58,22 @@
         <key key="parcel_mail_in" value="yes"/>
         <key key="parcel_pickup" value="yes"/>
       </item>
+      <item icon="https://gls-group.com/SK/media/icons/2021_1/2021_Icon-parcel.svg" name="GLS Balíkomat" type="node">
+        <label text="GLS Balíkomat"/>
+        <space/>
+        <key key="amenity" value="parcel_locker"/>
+        <text key="branch" text="Lokalita (podľa mapy)"/>
+        <key key="brand" value="GLS Balíkomat"/>
+        <key key="brand:wikidata" value="Q366182"/>
+        <key key="brand:wikipedia" value="en:General Logistics Systems"/>
+        <key key="name" value="GLS Balíkomat"/>
+        <key key="opening_hours" value="24/7"/>
+        <key key="operator" value="GLS"/>
+        <key key="parcel_mail_in" value="yes"/>
+        <key key="parcel_pickup" value="yes"/>
+        <key key="website" value="https://www.glskurier.sk/balikomat"/>
+        <link href="https://www.glskurier.sk/balikomat" sk.text="Mapa Balíkomatov" text="Map" />
+      </item>
       <item icon="https://www.packeta.hu/favicon.svg" name="Z-Box (Packeta)" type="node">
         <label text="Z-Box (Packeta)"/>
         <space/>
