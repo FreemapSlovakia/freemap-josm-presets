@@ -41,8 +41,8 @@
         <key key="payment:cash" value="no"/>
         <key key="payment:credit_cards" value="yes"/>
         <key key="payment:debit_cards" value="yes"/>
-	<label text="Look-up URL at https://www.alza.sk/alzabox (map at the bottom of the page)" sk.text="Vyhľadajte URL AlzaBoxu na stránke https://www.alza.sk/alzabox (mapa naspodu stránky)"/>
-        <link href="https://www.alza.sk/alzabox" sk.text="Mapa AlzaBoxov" text="AlzaBox map" />
+	<label text="Look-up URL at https://www.alza.sk/zoznam-predajni-a-alzaboxov" sk.text="Vyhľadajte URL AlzaBoxu na stránke https://www.alza.sk/zoznam-predajni-a-alzaboxov (mapa naspodu stránky)"/>
+        <link href="https://www.alza.sk/zoznam-predajni-a-alzaboxov" sk.text="Mapa AlzaBoxov" text="AlzaBox map" />
         <text default="https://www.alza.sk/alzabox-XXX" key="website" sk.text="URL boxu" text="URL"/>
       </item>
       <item icon="https://www.posta.sk/subory/39250/slovenska-posta-logo-male.jpg" name="BalíkoBOX Slovenskej pošty" type="node">
