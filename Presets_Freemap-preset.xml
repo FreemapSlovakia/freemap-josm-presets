@@ -2,92 +2,103 @@
 <presets author="Freemap Slovakia" baselanguage="sk" description="Presets for Slovak mappers" sk.description="Predvoľby značenia pre slovenských maperov" icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVR4nKXTe2jNDRzH8c/OdpzddIbMZdNm5Pz2w8zGenZ2hnPZGY9kzAyP28xkS6T8IRYbIZeS+yy3XB45h5kTfzChmRGPpZH8gZSYpydshRLt7Q+jnqKUPz5/ffu+/vn0EaDfyW89/xTIHzo00m+aK/2meTbPNA/4UlNnSgqXFPZLQJ5pNu4e0Z1Atgg4xe5R0cwf1q9ZUnwXZPkfMGlBbuW8WRnPp8/JuulxZ25ZNzyOy0Xi3QnxMSCero+gzi3KHNG70hITR0uK+g5UFiTPDLhEw1QLoXyxf0wUR52RvNpnhZYCuD0eGnN4uqEXOzJsTE1Oxudw4DGMUFpCwkhtzrHfu1shuDAIQnb+q4mhab54/7fgwQx4Ug6famhrXk4wM4xQgpWG2Gg2pqbiNYxHWp3Z81lDYTc+nhkM/xTCgznQWszr834+nOrPnSUW7q81eHNAPK4WTXMtBF2iyesgzzSRzzA2bc2IIZQfzpvDBm07rby/MQNai6E+Fi454GYeXHPCpTSoT6KjJpb6CWLFiLh2eRZ6cirHxlNXJKizQeM4OGeHliI6jti5VWqh83I23CqA29OhuRCuTqTtYgVHs9Uuf7l/UPX4eFqXC073heYCaJkNL6robN9O67ax3CjpxuMqO//u6UvHMYMPocncXZnOnlG6J0ClE1OunhknHq6K4O3BHnyuz+FlrZMrpUlsz7JR/dcQDhb156QviqBLBHItbHTF4O6jiq9dSvYKb2Jo1x+2zqBLBF1ib5aVsjT72wHDBlzL+DOd0uopbA6Uc/z6GqoOLcZZ7ETSwG9AuKRISekJPSKXDoyzrZZUJmmaJG9KZsokd4m71rPQ0+Zb5MW3yIe7xL1MkvUbECbJIqmnpCRJDknDJSVL6i0ppusenjs7t5+kiK5Yfr6yHwznR/kCYKIipvPgBGIAAAAASUVORK5CYII=" shortdescription="Freemap Slovakia" version="1.17_2022-03-16" xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
   <group icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVR4nKXTe2jNDRzH8c/OdpzddIbMZdNm5Pz2w8zGenZ2hnPZGY9kzAyP28xkS6T8IRYbIZeS+yy3XB45h5kTfzChmRGPpZH8gZSYpydshRLt7Q+jnqKUPz5/ffu+/vn0EaDfyW89/xTIHzo00m+aK/2meTbPNA/4UlNnSgqXFPZLQJ5pNu4e0Z1Atgg4xe5R0cwf1q9ZUnwXZPkfMGlBbuW8WRnPp8/JuulxZ25ZNzyOy0Xi3QnxMSCero+gzi3KHNG70hITR0uK+g5UFiTPDLhEw1QLoXyxf0wUR52RvNpnhZYCuD0eGnN4uqEXOzJsTE1Oxudw4DGMUFpCwkhtzrHfu1shuDAIQnb+q4mhab54/7fgwQx4Ug6famhrXk4wM4xQgpWG2Gg2pqbiNYxHWp3Z81lDYTc+nhkM/xTCgznQWszr834+nOrPnSUW7q81eHNAPK4WTXMtBF2iyesgzzSRzzA2bc2IIZQfzpvDBm07rby/MQNai6E+Fi454GYeXHPCpTSoT6KjJpb6CWLFiLh2eRZ6cirHxlNXJKizQeM4OGeHliI6jti5VWqh83I23CqA29OhuRCuTqTtYgVHs9Uuf7l/UPX4eFqXC073heYCaJkNL6robN9O67ax3CjpxuMqO//u6UvHMYMPocncXZnOnlG6J0ClE1OunhknHq6K4O3BHnyuz+FlrZMrpUlsz7JR/dcQDhb156QviqBLBHItbHTF4O6jiq9dSvYKb2Jo1x+2zqBLBF1ib5aVsjT72wHDBlzL+DOd0uopbA6Uc/z6GqoOLcZZ7ETSwG9AuKRISekJPSKXDoyzrZZUJmmaJG9KZsokd4m71rPQ0+Zb5MW3yIe7xL1MkvUbECbJIqmnpCRJDknDJSVL6i0ppusenjs7t5+kiK5Yfr6yHwznR/kCYKIipvPgBGIAAAAASUVORK5CYII=" name="Freemap">
     <group icon="https://wiki.openstreetmap.org/w/images/f/f1/Parcel_locker_icon_mockup_-_32.svg" name="Parcel Lockers" sk.name="Balíkomaty">
-      <item icon="https://wiki.openstreetmap.org/w/images/f/f1/Parcel_locker_icon_mockup_-_32.svg" name="parcel locker" sk.name="Balíkomat (všeobecný)" type="node,closedway">
+      <item icon="https://wiki.openstreetmap.org/w/images/f/f1/Parcel_locker_icon_mockup_-_32.svg" name="Parcel locker" sk.name="Balíkomat (všeobecný)" type="node,closedway">
         <label sk.text="Balíkomat" text="Parcel Locker"/>
         <key key="amenity" value="parcel_locker"/>
-        <text default="" key="operator" sk.text="prevádzkovateľ" text="operator"/>
-        <text default="" key="name" sk.text="názov" text="name"/>
-        <combo sk.text="značka" key="brand" text="brand">
+        <combo key="brand" text="Brand">
           <list_entry display_value="AlzaBox" value="AlzaBox"/>
           <list_entry display_value="BalíkoBOX" value="BalíkoBOX"/>
+          <list_entry display_value="GLS Balíkomat" value="GLS Balíkomat"/>
           <list_entry display_value="Packeta" value="Packeta"/>
         </combo>
-        <text default="" key="opening_hours" sk.text="otváracie hodiny" text="opening hours"/>
+        <text key="name" text="Name"/>
+        <text key="operator" text="Operator"/>
+        <text key="opening_hours" default="24/7" text="Opening Hours"/>
         <space/>
-        <combo sk.text="vyzdvihnutie balíkov" key="parcel_pickup" text="parcel pickup">
-          <list_entry sk.display_value="áno" display_value="yes" value="yes"/>
-          <list_entry sk.display_value="nie" display_value="no" value="no"/>
+        <combo sk.text="Vyzdvihnutie balíkov" key="parcel_pickup" text="Parcel pickup">
+          <list_entry value="yes"/>
+          <list_entry value="no"/>
         </combo>
-        <combo sk.text="odosielanie balíkov" key="parcel_mail_in" text="parcel drop off">
-          <list_entry sk.display_value="áno" display_value="yes" value="yes"/>
-          <list_entry sk.display_value="nie" display_value="no" value="no"/>
-          <list_entry sk.display_value="iba vrátenie" display_value="returns_only" value="returns_only"/>
+        <combo sk.text="Odosielanie balíkov" key="parcel_mail_in" text="Parcel drop off">
+          <list_entry value="yes"/>
+          <list_entry value="no"/>
+          <list_entry sk.display_value="iba vrátenie" display_value="returns only" value="returns_only"/>
         </combo>
         <space/>
       </item>
-      <item icon="https://www.alza.sk/Styles/images/svg/delivery/icon-2-map.svg" name="AlzaBox" type="node">
+      <item icon="https://cdn.alza.sk/Foto/Domains/Logistics/PersonalPickup/png/icon-2.png" name="AlzaBox" type="node,closedway">
         <label text="AlzaBox"/>
         <space/>
         <key key="amenity" value="parcel_locker"/>
+        <key key="colour" value="white" match="none"/>
         <text key="branch" text="Mesto (Lokalita)"/>
         <key key="brand" value="AlzaBox"/>
-        <key key="brand:wikidata" value="Q10786832"/>
-        <key key="brand:wikipedia" value="de:Alza"/>
-        <key key="name" value="AlzaBox"/>
-        <key key="opening_hours" value="24/7"/>
-        <key key="operator" value="Alza.sk"/>
-        <key key="parcel_mail_in" value="no"/>
-        <key key="parcel_pickup" value="yes"/>
-        <key key="payment:cash" value="no"/>
-        <key key="payment:credit_cards" value="yes"/>
-        <key key="payment:debit_cards" value="yes"/>
-	<label text="Look-up URL at https://www.alza.sk/zoznam-predajni-a-alzaboxov" sk.text="Vyhľadajte URL AlzaBoxu na stránke https://www.alza.sk/zoznam-predajni-a-alzaboxov (mapa naspodu stránky)"/>
-        <link href="https://www.alza.sk/zoznam-predajni-a-alzaboxov" sk.text="Mapa AlzaBoxov" text="AlzaBox map" />
+        <key key="brand:wikidata" value="Q10786832" match="keyvalue"/>
+        <key key="brand:wikipedia" value="de:Alza" match="keyvalue"/>
+        <key key="name" value="AlzaBox" match="keyvalue"/>
+        <text key="opening_hours" default="24/7" text="Opening Hours"/>
+        <key key="operator" value="Alza.sk" match="keyvalue"/>
+        <key key="parcel_locker:type" value="cabinet" match="none"/>
+        <key key="parcel_mail_in" value="no" match="none"/>
+        <key key="parcel_pickup" value="yes" match="none"/>
+        <key key="payment:cash" value="no" match="none"/>
+        <key key="payment:credit_cards" value="yes" match="none"/>
+        <key key="payment:debit_cards" value="yes" match="none"/>
+        <label text="Look-up URL at https://www.alza.sk/zoznam-predajni-a-alzaboxov" sk.text="Vyhľadajte URL AlzaBoxu na stránke https://www.alza.sk/zoznam-predajni-a-alzaboxov (mapa naspodu stránky)"/>
+        <link href="https://www.alza.sk/zoznam-predajni-a-alzaboxov" sk.text="Mapa AlzaBoxov" text="AlzaBox map"/>
         <text default="https://www.alza.sk/alzabox-XXX" key="website" sk.text="URL boxu" text="URL"/>
       </item>
-      <item icon="https://www.posta.sk/subory/39250/slovenska-posta-logo-male.jpg" name="BalíkoBOX Slovenskej pošty" type="node">
+      <item icon="https://www.posta.sk/subory/39250/slovenska-posta-logo-male.jpg" name="BalíkoBOX Slovenskej pošty" type="node,closedway">
         <label text="BalíkoBOX Slovenskej pošty"/>
         <space/>
         <key key="amenity" value="parcel_locker"/>
         <key key="brand" value="BalíkoBOX"/>
-        <key key="brand:wikidata" value="Q1191849"/>
-        <key key="brand:wikipedia" value="en:Slovenská pošta"/>
-        <key key="name" value="BalíkoBOX"/>
-        <key key="opening_hours" value="24/7"/>
-        <key key="operator" value="Slovenská pošta"/>
-        <key key="parcel_mail_in" value="yes"/>
-        <key key="parcel_pickup" value="yes"/>
+        <key key="brand:wikidata" value="Q1191849" match="keyvalue"/>
+        <key key="brand:wikipedia" value="en:Slovenská pošta" match="keyvalue"/>
+        <key key="colour" value="gold" match="none"/>
+        <key key="name" value="BalíkoBOX" match="keyvalue"/>
+        <text key="opening_hours" default="24/7" text="Opening Hours"/>
+        <key key="operator" value="Slovenská pošta" match="none"/>
+        <key key="parcel_locker:type" value="cabinet" match="none"/>
+        <key key="parcel_mail_in" value="yes" match="none"/>
+        <key key="parcel_pickup" value="yes" match="none"/>
       </item>
-      <item icon="https://gls-group.com/SK/media/icons/2021_1/2021_Icon-parcel.svg" name="GLS Balíkomat" type="node">
+      <item icon="https://gls-group.com/SK/media/icons/2021_1/2021_Icon-parcel.svg" name="GLS Balíkomat" type="node,closedway">
         <label text="GLS Balíkomat"/>
         <space/>
         <key key="amenity" value="parcel_locker"/>
         <text key="branch" text="Lokalita (podľa mapy)"/>
         <key key="brand" value="GLS Balíkomat"/>
-        <key key="brand:wikidata" value="Q366182"/>
-        <key key="brand:wikipedia" value="en:General Logistics Systems"/>
-        <key key="name" value="GLS Balíkomat"/>
-        <key key="opening_hours" value="24/7"/>
-        <key key="operator" value="GLS"/>
-        <key key="parcel_mail_in" value="yes"/>
-        <key key="parcel_pickup" value="yes"/>
-        <key key="website" value="https://www.glskurier.sk/balikomat"/>
-        <link href="https://www.glskurier.sk/balikomat" sk.text="Mapa Balíkomatov" text="Map" />
+        <key key="brand:wikidata" value="Q366182" match="keyvalue"/>
+        <key key="brand:wikipedia" value="en:General Logistics Systems" match="keyvalue"/>
+        <key key="colour" value="white" match="none"/>
+        <key key="name" value="GLS Balíkomat" match="keyvalue"/>
+        <text key="opening_hours" default="24/7" text="Opening Hours"/>
+        <key key="operator" value="GLS General Logistics Systems Slovakia" match="keyvalue"/>
+        <key key="parcel_locker:type" value="cabinet" match="none"/>
+        <key key="parcel_mail_in" value="yes" match="none"/>
+        <key key="parcel_pickup" value="yes" match="none"/>
+        <key key="website" value="https://www.glskurier.sk/balikomat" match="keyvalue"/>
+        <link href="https://www.glskurier.sk/balikomat" sk.text="Mapa Balíkomatov" text="Map"/>
       </item>
-      <item icon="https://www.packeta.hu/favicon.svg" name="Z-Box (Packeta)" type="node">
+      <item icon="https://www.packeta.hu/favicon.svg" name="Z-Box (Packeta)" type="node,closedway">
         <label text="Z-Box (Packeta)"/>
         <space/>
         <key key="amenity" value="parcel_locker"/>
         <key key="brand" value="Packeta"/>
-        <key key="brand:wikidata" value="Q67809905"/>
-        <key key="name" value="Z-Box"/>
-        <key key="opening_hours" value="24/7"/>
-        <key key="operator" value="Packeta Slovakia"/>
-        <key key="parcel_pickup" value="yes"/>
-	<text default="https://www.packeta.sk/pobocky/" key="website" sk.text="URL Z-Boxu" text="URL"/>
+        <key key="brand:wikidata" value="Q67809905" match="keyvalue"/>
+        <key key="colour" value="red" match="none"/>
+        <key key="name" value="Z-Box" match="keyvalue"/>
+        <text key="opening_hours" default="24/7" text="Opening Hours"/>
+        <key key="operator" value="Packeta Slovakia" match="keyvalue"/>
+        <key key="parcel_locker:type" value="cabinet" match="none"/>
+        <key key="parcel_mail_in" value="yes" match="none"/>
+        <key key="parcel_pickup" value="yes" match="none"/>
+        <text key="ref" text="Reference"/>
+        <text default="https://www.packeta.sk/pobocky/" key="website" sk.text="URL Z-Boxu" text="URL"/>
       </item>
     </group>
-    <group icon="https://wiki.openstreetmap.org/w/images/d/d5/Rental-bicycle-16.svg" sk.name="Požičovňa/prenájom bicyklov" name="Bicycle Rental" >
+    <group icon="https://wiki.openstreetmap.org/w/images/d/d5/Rental-bicycle-16.svg" sk.name="Požičovňa/prenájom bicyklov" name="Bicycle Rental">
       <item icon="https://slovnaftbajk.sk/favicon-32x32.png" name="SlovnaftBAjk" type="node">
         <label text="SlovnaftBAjk"/>
         <key key="amenity" value="bicycle_rental"/>
@@ -97,7 +108,7 @@
         <text default="" key="name" sk.text="Názov stanice" text="Station name"/>
         <text default="" key="ref" sk.text="Číslo stanice" text="Station id"/>
         <text default="" key="capacity" sk.text="Kapacita" text="Capacity"/>
-	<link href="https://slovnaftbajk.sk/mapa-stanic" sk.text="Mapa staníc" text="Station map" />
+    <link href="https://slovnaftbajk.sk/mapa-stanic" sk.text="Mapa staníc" text="Station map"/>
       </item>
       <item icon="https://whitebikes.info/img/icon.png" name="WhiteBikes" type="node">
         <label text="WhiteBikes"/>
@@ -105,12 +116,12 @@
         <key key="operator" value="WhiteBikes"/>
         <key key="network" value="WhiteBikes Bratislava"/>
         <key key="website" value="https://whitebikes.info/"/>
-	<text default="WhiteBikes - UPPERCASE_NAME" key="name" sk.text="Názov stojanu" text="Stand name"/>
+        <text default="WhiteBikes - UPPERCASE_NAME" key="name" sk.text="Názov stojanu" text="Stand name"/>
         <text default="" key="ref" sk.text="Číslo stojanu" text="Stand id"/>
         <text default="REF UPPERCASE_NAME" key="ref:whitebikes" sk.text="Číslo a názov stojanu" text="Stand id + name"/>
         <text default="" key="note" sk.text="Poznámka (web whitebikes, anglicky)" text="Note (whitebikes website)"/>
-	<link href="https://whitebikes.info/command.php?action=map:markers" sk.text="Zoznam stojanov" text="List of stands" />
-	<link href="https://whitebikes.info/" sk.text="Web WhiteBikes (vyžaduje prihlásenie)" text="WhiteBikes website (requires login)" />
+        <link href="https://whitebikes.info/command.php?action=map:markers" sk.text="Zoznam stojanov" text="List of stands"/>
+        <link href="https://whitebikes.info/" sk.text="Web WhiteBikes (vyžaduje prihlásenie)" text="WhiteBikes website (requires login)"/>
       </item>
     </group>
     <group name="Lesné cesty">
