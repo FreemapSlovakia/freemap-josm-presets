@@ -33,8 +33,7 @@
         <key key="colour" value="white" match="none"/>
         <text key="branch" text="Mesto (Lokalita)"/>
         <key key="brand" value="AlzaBox"/>
-        <key key="brand:wikidata" value="Q10786832" match="keyvalue"/>
-        <key key="brand:wikipedia" value="de:Alza" match="keyvalue"/>
+        <key key="brand:wikidata" value="Q115254158" match="keyvalue"/>
         <key key="name" value="AlzaBox" match="keyvalue"/>
         <text key="opening_hours" default="24/7" text="Opening Hours"/>
         <key key="operator" value="Alza.sk" match="keyvalue"/>
