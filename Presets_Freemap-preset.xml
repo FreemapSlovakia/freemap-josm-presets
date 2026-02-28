@@ -1,15 +1,17 @@
 <?xml version="1.0"?>
-<presets author="Freemap Slovakia" baselanguage="sk" shortdescription="Freemap Slovakia" version="1.22_2025-12-25" description="Presets for Slovak mappers" sk.description="Predvoľby značenia pre slovenských maperov" icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVR4nKXTe2jNDRzH8c/OdpzddIbMZdNm5Pz2w8zGenZ2hnPZGY9kzAyP28xkS6T8IRYbIZeS+yy3XB45h5kTfzChmRGPpZH8gZSYpydshRLt7Q+jnqKUPz5/ffu+/vn0EaDfyW89/xTIHzo00m+aK/2meTbPNA/4UlNnSgqXFPZLQJ5pNu4e0Z1Atgg4xe5R0cwf1q9ZUnwXZPkfMGlBbuW8WRnPp8/JuulxZ25ZNzyOy0Xi3QnxMSCero+gzi3KHNG70hITR0uK+g5UFiTPDLhEw1QLoXyxf0wUR52RvNpnhZYCuD0eGnN4uqEXOzJsTE1Oxudw4DGMUFpCwkhtzrHfu1shuDAIQnb+q4mhab54/7fgwQx4Ug6famhrXk4wM4xQgpWG2Gg2pqbiNYxHWp3Z81lDYTc+nhkM/xTCgznQWszr834+nOrPnSUW7q81eHNAPK4WTXMtBF2iyesgzzSRzzA2bc2IIZQfzpvDBm07rby/MQNai6E+Fi454GYeXHPCpTSoT6KjJpb6CWLFiLh2eRZ6cirHxlNXJKizQeM4OGeHliI6jti5VWqh83I23CqA29OhuRCuTqTtYgVHs9Uuf7l/UPX4eFqXC073heYCaJkNL6robN9O67ax3CjpxuMqO//u6UvHMYMPocncXZnOnlG6J0ClE1OunhknHq6K4O3BHnyuz+FlrZMrpUlsz7JR/dcQDhb156QviqBLBHItbHTF4O6jiq9dSvYKb2Jo1x+2zqBLBF1ib5aVsjT72wHDBlzL+DOd0uopbA6Uc/z6GqoOLcZZ7ETSwG9AuKRISekJPSKXDoyzrZZUJmmaJG9KZsokd4m71rPQ0+Zb5MW3yIe7xL1MkvUbECbJIqmnpCRJDknDJSVL6i0ppusenjs7t5+kiK5Yfr6yHwznR/kCYKIipvPgBGIAAAAASUVORK5CYII=" xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+<presets author="Freemap Slovakia" baselanguage="sk" shortdescription="Freemap Slovakia" version="1.24_2026-02-28" description="Presets for Slovak mappers" sk.description="Predvoľby značenia pre slovenských maperov" icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVR4nKXTe2jNDRzH8c/OdpzddIbMZdNm5Pz2w8zGenZ2hnPZGY9kzAyP28xkS6T8IRYbIZeS+yy3XB45h5kTfzChmRGPpZH8gZSYpydshRLt7Q+jnqKUPz5/ffu+/vn0EaDfyW89/xTIHzo00m+aK/2meTbPNA/4UlNnSgqXFPZLQJ5pNu4e0Z1Atgg4xe5R0cwf1q9ZUnwXZPkfMGlBbuW8WRnPp8/JuulxZ25ZNzyOy0Xi3QnxMSCero+gzi3KHNG70hITR0uK+g5UFiTPDLhEw1QLoXyxf0wUR52RvNpnhZYCuD0eGnN4uqEXOzJsTE1Oxudw4DGMUFpCwkhtzrHfu1shuDAIQnb+q4mhab54/7fgwQx4Ug6famhrXk4wM4xQgpWG2Gg2pqbiNYxHWp3Z81lDYTc+nhkM/xTCgznQWszr834+nOrPnSUW7q81eHNAPK4WTXMtBF2iyesgzzSRzzA2bc2IIZQfzpvDBm07rby/MQNai6E+Fi454GYeXHPCpTSoT6KjJpb6CWLFiLh2eRZ6cirHxlNXJKizQeM4OGeHliI6jti5VWqh83I23CqA29OhuRCuTqTtYgVHs9Uuf7l/UPX4eFqXC073heYCaJkNL6robN9O67ax3CjpxuMqO//u6UvHMYMPocncXZnOnlG6J0ClE1OunhknHq6K4O3BHnyuz+FlrZMrpUlsz7JR/dcQDhb156QviqBLBHItbHTF4O6jiq9dSvYKb2Jo1x+2zqBLBF1ib5aVsjT72wHDBlzL+DOd0uopbA6Uc/z6GqoOLcZZ7ETSwG9AuKRISekJPSKXDoyzrZZUJmmaJG9KZsokd4m71rPQ0+Zb5MW3yIe7xL1MkvUbECbJIqmnpCRJDknDJSVL6i0ppusenjs7t5+kiK5Yfr6yHwznR/kCYKIipvPgBGIAAAAASUVORK5CYII=" xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
   <group icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVR4nKXTe2jNDRzH8c/OdpzddIbMZdNm5Pz2w8zGenZ2hnPZGY9kzAyP28xkS6T8IRYbIZeS+yy3XB45h5kTfzChmRGPpZH8gZSYpydshRLt7Q+jnqKUPz5/ffu+/vn0EaDfyW89/xTIHzo00m+aK/2meTbPNA/4UlNnSgqXFPZLQJ5pNu4e0Z1Atgg4xe5R0cwf1q9ZUnwXZPkfMGlBbuW8WRnPp8/JuulxZ25ZNzyOy0Xi3QnxMSCero+gzi3KHNG70hITR0uK+g5UFiTPDLhEw1QLoXyxf0wUR52RvNpnhZYCuD0eGnN4uqEXOzJsTE1Oxudw4DGMUFpCwkhtzrHfu1shuDAIQnb+q4mhab54/7fgwQx4Ug6famhrXk4wM4xQgpWG2Gg2pqbiNYxHWp3Z81lDYTc+nhkM/xTCgznQWszr834+nOrPnSUW7q81eHNAPK4WTXMtBF2iyesgzzSRzzA2bc2IIZQfzpvDBm07rby/MQNai6E+Fi454GYeXHPCpTSoT6KjJpb6CWLFiLh2eRZ6cirHxlNXJKizQeM4OGeHliI6jti5VWqh83I23CqA29OhuRCuTqTtYgVHs9Uuf7l/UPX4eFqXC073heYCaJkNL6robN9O67ax3CjpxuMqO//u6UvHMYMPocncXZnOnlG6J0ClE1OunhknHq6K4O3BHnyuz+FlrZMrpUlsz7JR/dcQDhb156QviqBLBHItbHTF4O6jiq9dSvYKb2Jo1x+2zqBLBF1ib5aVsjT72wHDBlzL+DOd0uopbA6Uc/z6GqoOLcZZ7ETSwG9AuKRISekJPSKXDoyzrZZUJmmaJG9KZsokd4m71rPQ0+Zb5MW3yIe7xL1MkvUbECbJIqmnpCRJDknDJSVL6i0ppusenjs7t5+kiK5Yfr6yHwznR/kCYKIipvPgBGIAAAAASUVORK5CYII=" name="Freemap">
-    <group icon="https://wiki.openstreetmap.org/w/images/f/f1/Parcel_locker_icon_mockup_-_32.svg" name="Parcel Lockers" sk.name="Balíkomaty">
-      <item icon="https://wiki.openstreetmap.org/w/images/f/f1/Parcel_locker_icon_mockup_-_32.svg" name="Parcel locker" sk.name="Balíkomat (všeobecný)" type="node,closedway">
+    <group icon="presets/service/parcel_locker.svg" name="Parcel Lockers" sk.name="Balíkomaty">
+      <item icon="presets/service/parcel_locker.svg" name="Parcel locker" sk.name="Balíkomat (všeobecný)" type="node,closedway">
         <label sk.text="Balíkomat" text="Parcel Locker"/>
         <key key="amenity" value="parcel_locker"/>
         <combo key="brand" text="Brand">
-          <list_entry display_value="AlzaBox" value="AlzaBox"/>
-          <list_entry display_value="BalíkoBOX" value="BalíkoBOX"/>
-          <list_entry display_value="DPD Pickup Box" value="dpd"/>
-          <list_entry display_value="GLS Balíkomat" value="GLS Balíkomat"/>
+          <list_entry display_value="AlzaBox (Alza)" value="AlzaBox"/>
+          <list_entry display_value="BalíkoBOX (Slovenská pošta)" value="BalíkoBOX"/>
+          <list_entry display_value="balíkovo (SPS)" value="balíkovo"/>
+          <list_entry display_value="DPD Pickup Box (DPD)" value="dpd"/>
+          <list_entry display_value="GLS Balíkomat (GLS)" value="GLS Balíkomat"/>
+          <list_entry display_value="Tamburi box (Tamburi)" value="tamburi"/>
           <list_entry display_value="Z-Box (Packeta)" value="Z-Box"/>
         </combo>
         <text key="name" text="Name"/>
@@ -32,7 +34,7 @@
         <space/>
         <key key="amenity" value="parcel_locker"/>
         <key key="colour" value="white" match="none"/>
-        <text key="branch" text="Mesto (Lokalita)"/>
+        <text key="branch" text="Lokalita/umiestnenie boxu (podľa mapy)"/>
         <key key="brand" value="AlzaBox"/>
         <key key="brand:wikidata" value="Q115254158" match="keyvalue"/>
         <key key="name" value="AlzaBox" match="keyvalue"/>
@@ -44,11 +46,12 @@
         <key key="payment:cash" value="no" match="none"/>
         <key key="payment:credit_cards" value="yes" match="none"/>
         <key key="payment:debit_cards" value="yes" match="none"/>
-        <label text="Look-up URL at https://www.alza.sk/zoznam-predajni-a-alzaboxov" sk.text="Vyhľadajte URL AlzaBoxu na stránke https://www.alza.sk/zoznam-predajni-a-alzaboxov (mapa naspodu stránky)"/>
-        <link href="https://www.alza.sk/zoznam-predajni-a-alzaboxov" sk.text="Mapa AlzaBoxov" text="AlzaBox map"/>
-        <text default="https://www.alza.sk/alzabox-XXX" key="website" sk.text="URL boxu" text="URL"/>
+        <label text="Look up URL via the map" sk.text="Vyhľadajte URL na mape"/>
+        <link href="https://www.alza.sk/zoznam-predajni-a-alzaboxov" sk.text="Mapa AlzaBoxov" text="Map"/>
+        <text default="https://www.alza.sk/alzabox-XXX" key="website" sk.text="URL boxu" text="Locker URL"/>
       </item>
-      <item icon="data:image/png;base64,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" name="BalíkoBOX Slovenskej pošty" type="node,closedway">
+      <item icon="data:image/png;base64,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"
+            name="BalíkoBOX Slovenskej pošty" type="node,closedway">
         <label text="BalíkoBOX Slovenskej pošty"/>
         <space/>
         <key key="amenity" value="parcel_locker"/>
@@ -63,7 +66,28 @@
         <key key="parcel_mail_in" value="yes" match="none"/>
         <key key="parcel_pickup" value="yes" match="none"/>
       </item>
-      <item icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAL0UExURdESKdIRKdkPKNcPKNMRKdYQKNERKdUPKNQQKdASKasaLrMZLXktNKUaL9gQKOMMJ98NJ9UQKNMQKc8RKe0MJ
+      <item icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAgCAMAAADUt/MJAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAABRUExURW9dTENRWvWBHvWAHPWCIFVWVENRWvWCIPWCIPWCIENRWkNRWkNRWkNRWkNRWvWBHvWGJ/ikXPioZPeXRf3m0v717fvRrPq7hvzdw/rElv///zkC4RQAAAAPdFJOUwNw2/ugLkthZX/Rq5Dtue6XY0EAAAABYktHRBp1Z+QyAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH6gELFRUx7ey7QAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wMS0xMVQyMToxOToxOSswMDowMNgQSpcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDEtMTFUMjE6MTg6NDErMDA6MDA9gNkWAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTAxLTExVDIxOjIxOjQ5KzAwOjAwPI37ZQAAARpJREFUKM990otygyAQBVCQQFKgLm/w/3+06wJtJE6vIyJnQRxljMI3ASDwxGbkIQcJ58M13j0GxbQmezGpuGtiCuKX4D0xODJ1Q6mSqc21D8InpABsc2UhqiUTPkW8r0eN4GuoHnzC2m4Bu7HhrkvIuPVAA3/mSmql1ZZbrg6miW4Ne7EgHTj8YdUFJNrV1eBIqaVBq+EDMbW/y2Jwfob5lqu9hxY6ktvuDcmL570hwYvdWul0Zzl7+GJk+bjEhTSIQSzXxDiJbbDGba9OTD5n1GjV+DH/j5rzmeLrBC0JmJFKWtX7M9/GSG6tNCh0GDwZXXGeVYprRaaphhtluZX6NG5OozmGavC2275LY3ZcllbkVhumtJS7tj9cXCqUW/pohwAAAABJRU5ErkJggg=="
+                  name="balíkovo box" type="node,closedway">
+        <label text="balíkovo box"/>
+        <space/>
+        <key key="amenity" value="parcel_locker"/>
+        <text key="branch" text="Lokalita/umiestnenie boxu (podľa mapy)"/>
+        <key key="brand" value="balíkovo"/>
+        <key key="brand:wikidata" value="Q132188077" match="keyvalue"/>
+        <key key="colour" value="darkslategrey" match="none"/>
+        <key key="name" value="balíkovo" match="keyvalue"/>
+        <text key="opening_hours" default="24/7" text="Opening Hours"/>
+        <key key="operator" value="Slovak Parcel Service" match="keyvalue"/>
+        <key key="operator:wikidata" value="Q132187919" match="none"/>
+        <key key="parcel_locker:type" value="cabinet" match="none"/>
+        <key key="parcel_mail_in" value="no" match="none"/>
+        <key key="parcel_pickup" value="yes" match="none"/>
+        <text key="ref" text="Number" match="none"/>
+        <label text="Look up URL via the map" sk.text="Vyhľadajte URL na mape"/>
+        <link href="https://www.sps-sro.sk/balikovo" sk.text="Mapa balíkovo boxov" text="Map"/>
+        <text key="website" default="https://www.sps-sro.sk/balikovo" sk.text="URL boxu" text="Locker URL"/>
+      </item>
+      <item icon="data:image/png;base64,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"
             name="DPD Pickup Box" type="node,closedway">
         <label text="DPD Pickup Box"/>
         <space/>
@@ -77,25 +101,41 @@
         <key key="parcel_pickup" value="yes" match="none"/>
         <text key="ref" text="Number" match="none"/>
         <key key="website" value="https://www.dpdgroup.com/" match="keyvalue"/>
-        <link href="https://www.dpdgroup.com/sk/mydpd/parcel-shops" sk.text="Mapa DPD Boxov" text="Map"/>
+        <link href="https://www.dpdgroup.com/sk/mydpd/parcel-shops" sk.text="Mapa DPD boxov" text="Map"/>
       </item>
       <item icon="https://gls-group.com/SK/media/icons/2021_1/2021_Icon-parcel.svg" name="GLS Balíkomat" type="node,closedway">
         <label text="GLS Balíkomat"/>
         <space/>
         <key key="amenity" value="parcel_locker"/>
-        <text key="branch" text="Lokalita (podľa mapy)"/>
+        <text key="branch" text="Lokalita/umiestnenie boxu (podľa mapy)"/>
         <key key="brand" value="GLS Balíkomat"/>
         <key key="brand:wikidata" value="Q366182" match="keyvalue"/>
-        <key key="brand:wikipedia" value="en:General Logistics Systems" match="keyvalue"/>
         <key key="colour" value="white" match="none"/>
         <key key="name" value="GLS Balíkomat" match="keyvalue"/>
         <text key="opening_hours" default="24/7" text="Opening Hours"/>
         <key key="operator" value="GLS General Logistics Systems Slovakia" match="keyvalue"/>
+        <key key="operator:wikidata" value="Q133842648" match="none"/>
         <key key="parcel_locker:type" value="cabinet" match="none"/>
         <key key="parcel_mail_in" value="yes" match="none"/>
         <key key="parcel_pickup" value="yes" match="none"/>
         <key key="website" value="https://www.glskurier.sk/balikomat" match="keyvalue"/>
         <link href="https://www.glskurier.sk/balikomat" sk.text="Mapa Balíkomatov" text="Map"/>
+      </item>
+      <item name="Tamburi box" type="node,closedway">
+        <label text="Tamburi box"/>
+        <space/>
+        <key key="amenity" value="parcel_locker"/>
+        <key key="brand" value="tamburi"/>
+        <key key="brand:wikidata" value="Q125176523" match="keyvalue"/>
+        <combo key="colour" text="Color" values="snow" sk.display_values="Biela" match="none"/>
+        <text key="name" value="" text="Name" match="none"/>
+        <text key="opening_hours" default="24/7" text="Opening Hours"/>
+        <key key="operator" value="Tamburi s.r.o." match="keyvalue"/>
+        <key key="parcel_locker:type" value="cabinet" match="none"/>
+        <key key="parcel_mail_in" value="yes" match="none"/>
+        <key key="parcel_pickup" value="yes" match="none"/>
+        <key key="website" value="https://www.tamburi.sk/boxy"/>
+        <link href="https://www.tamburi.sk/boxy" sk.text="Mapa boxov" text="Map"/>
       </item>
       <item icon="https://www.packeta.hu/favicon.svg" name="Z-Box (Packeta)" type="node,closedway">
         <label text="Z-Box (Packeta)"/>
@@ -112,7 +152,7 @@
         <key key="parcel_mail_in" value="yes" match="none"/>
         <key key="parcel_pickup" value="yes" match="none"/>
         <text key="ref" text="Reference"/>
-        <text default="https://www.packeta.sk/pobocky/" key="website" sk.text="URL Z-Boxu" text="URL"/>
+        <text default="https://www.packeta.sk/pobocky/" key="website" sk.text="URL Boxu" text="Locker URL"/>
       </item>
     </group>
     <group icon="https://wiki.openstreetmap.org/w/images/d/d5/Rental-bicycle-16.svg" sk.name="Požičovňa/prenájom bicyklov" name="Bicycle Rental">
