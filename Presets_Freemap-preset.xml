@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<presets author="Freemap Slovakia" baselanguage="sk" shortdescription="Freemap Slovakia" version="1.24_2026-02-28" description="Presets for Slovak mappers" sk.description="Predvoľby značenia pre slovenských maperov" icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVR4nKXTe2jNDRzH8c/OdpzddIbMZdNm5Pz2w8zGenZ2hnPZGY9kzAyP28xkS6T8IRYbIZeS+yy3XB45h5kTfzChmRGPpZH8gZSYpydshRLt7Q+jnqKUPz5/ffu+/vn0EaDfyW89/xTIHzo00m+aK/2meTbPNA/4UlNnSgqXFPZLQJ5pNu4e0Z1Atgg4xe5R0cwf1q9ZUnwXZPkfMGlBbuW8WRnPp8/JuulxZ25ZNzyOy0Xi3QnxMSCero+gzi3KHNG70hITR0uK+g5UFiTPDLhEw1QLoXyxf0wUR52RvNpnhZYCuD0eGnN4uqEXOzJsTE1Oxudw4DGMUFpCwkhtzrHfu1shuDAIQnb+q4mhab54/7fgwQx4Ug6famhrXk4wM4xQgpWG2Gg2pqbiNYxHWp3Z81lDYTc+nhkM/xTCgznQWszr834+nOrPnSUW7q81eHNAPK4WTXMtBF2iyesgzzSRzzA2bc2IIZQfzpvDBm07rby/MQNai6E+Fi454GYeXHPCpTSoT6KjJpb6CWLFiLh2eRZ6cirHxlNXJKizQeM4OGeHliI6jti5VWqh83I23CqA29OhuRCuTqTtYgVHs9Uuf7l/UPX4eFqXC073heYCaJkNL6robN9O67ax3CjpxuMqO//u6UvHMYMPocncXZnOnlG6J0ClE1OunhknHq6K4O3BHnyuz+FlrZMrpUlsz7JR/dcQDhb156QviqBLBHItbHTF4O6jiq9dSvYKb2Jo1x+2zqBLBF1ib5aVsjT72wHDBlzL+DOd0uopbA6Uc/z6GqoOLcZZ7ETSwG9AuKRISekJPSKXDoyzrZZUJmmaJG9KZsokd4m71rPQ0+Zb5MW3yIe7xL1MkvUbECbJIqmnpCRJDknDJSVL6i0ppusenjs7t5+kiK5Yfr6yHwznR/kCYKIipvPgBGIAAAAASUVORK5CYII=" xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+<presets author="Freemap Slovakia" baselanguage="sk" shortdescription="Freemap Slovakia" version="1.25_2026-03-29" description="Presets for Slovak mappers" sk.description="Predvoľby značenia pre slovenských maperov" icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVR4nKXTe2jNDRzH8c/OdpzddIbMZdNm5Pz2w8zGenZ2hnPZGY9kzAyP28xkS6T8IRYbIZeS+yy3XB45h5kTfzChmRGPpZH8gZSYpydshRLt7Q+jnqKUPz5/ffu+/vn0EaDfyW89/xTIHzo00m+aK/2meTbPNA/4UlNnSgqXFPZLQJ5pNu4e0Z1Atgg4xe5R0cwf1q9ZUnwXZPkfMGlBbuW8WRnPp8/JuulxZ25ZNzyOy0Xi3QnxMSCero+gzi3KHNG70hITR0uK+g5UFiTPDLhEw1QLoXyxf0wUR52RvNpnhZYCuD0eGnN4uqEXOzJsTE1Oxudw4DGMUFpCwkhtzrHfu1shuDAIQnb+q4mhab54/7fgwQx4Ug6famhrXk4wM4xQgpWG2Gg2pqbiNYxHWp3Z81lDYTc+nhkM/xTCgznQWszr834+nOrPnSUW7q81eHNAPK4WTXMtBF2iyesgzzSRzzA2bc2IIZQfzpvDBm07rby/MQNai6E+Fi454GYeXHPCpTSoT6KjJpb6CWLFiLh2eRZ6cirHxlNXJKizQeM4OGeHliI6jti5VWqh83I23CqA29OhuRCuTqTtYgVHs9Uuf7l/UPX4eFqXC073heYCaJkNL6robN9O67ax3CjpxuMqO//u6UvHMYMPocncXZnOnlG6J0ClE1OunhknHq6K4O3BHnyuz+FlrZMrpUlsz7JR/dcQDhb156QviqBLBHItbHTF4O6jiq9dSvYKb2Jo1x+2zqBLBF1ib5aVsjT72wHDBlzL+DOd0uopbA6Uc/z6GqoOLcZZ7ETSwG9AuKRISekJPSKXDoyzrZZUJmmaJG9KZsokd4m71rPQ0+Zb5MW3yIe7xL1MkvUbECbJIqmnpCRJDknDJSVL6i0ppusenjs7t5+kiK5Yfr6yHwznR/kCYKIipvPgBGIAAAAASUVORK5CYII=" xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
   <group icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACtElEQVR4nKXTe2jNDRzH8c/OdpzddIbMZdNm5Pz2w8zGenZ2hnPZGY9kzAyP28xkS6T8IRYbIZeS+yy3XB45h5kTfzChmRGPpZH8gZSYpydshRLt7Q+jnqKUPz5/ffu+/vn0EaDfyW89/xTIHzo00m+aK/2meTbPNA/4UlNnSgqXFPZLQJ5pNu4e0Z1Atgg4xe5R0cwf1q9ZUnwXZPkfMGlBbuW8WRnPp8/JuulxZ25ZNzyOy0Xi3QnxMSCero+gzi3KHNG70hITR0uK+g5UFiTPDLhEw1QLoXyxf0wUR52RvNpnhZYCuD0eGnN4uqEXOzJsTE1Oxudw4DGMUFpCwkhtzrHfu1shuDAIQnb+q4mhab54/7fgwQx4Ug6famhrXk4wM4xQgpWG2Gg2pqbiNYxHWp3Z81lDYTc+nhkM/xTCgznQWszr834+nOrPnSUW7q81eHNAPK4WTXMtBF2iyesgzzSRzzA2bc2IIZQfzpvDBm07rby/MQNai6E+Fi454GYeXHPCpTSoT6KjJpb6CWLFiLh2eRZ6cirHxlNXJKizQeM4OGeHliI6jti5VWqh83I23CqA29OhuRCuTqTtYgVHs9Uuf7l/UPX4eFqXC073heYCaJkNL6robN9O67ax3CjpxuMqO//u6UvHMYMPocncXZnOnlG6J0ClE1OunhknHq6K4O3BHnyuz+FlrZMrpUlsz7JR/dcQDhb156QviqBLBHItbHTF4O6jiq9dSvYKb2Jo1x+2zqBLBF1ib5aVsjT72wHDBlzL+DOd0uopbA6Uc/z6GqoOLcZZ7ETSwG9AuKRISekJPSKXDoyzrZZUJmmaJG9KZsokd4m71rPQ0+Zb5MW3yIe7xL1MkvUbECbJIqmnpCRJDknDJSVL6i0ppusenjs7t5+kiK5Yfr6yHwznR/kCYKIipvPgBGIAAAAASUVORK5CYII=" name="Freemap">
     <group icon="presets/service/parcel_locker.svg" name="Parcel Lockers" sk.name="Balíkomaty">
       <item icon="presets/service/parcel_locker.svg" name="Parcel locker" sk.name="Balíkomat (všeobecný)" type="node,closedway">
@@ -33,10 +33,10 @@
         <label text="AlzaBox"/>
         <space/>
         <key key="amenity" value="parcel_locker"/>
-        <key key="colour" value="white" match="none"/>
-        <text key="branch" text="Lokalita/umiestnenie boxu (podľa mapy)"/>
         <key key="brand" value="AlzaBox"/>
         <key key="brand:wikidata" value="Q115254158" match="keyvalue"/>
+        <text key="branch" text="Lokalita/umiestnenie boxu (podľa mapy)"/>
+        <key key="colour" value="white" match="none"/>
         <key key="name" value="AlzaBox" match="keyvalue"/>
         <text key="opening_hours" default="24/7" text="Opening Hours"/>
         <key key="operator" value="Alza.sk" match="keyvalue"/>
@@ -57,6 +57,7 @@
         <key key="amenity" value="parcel_locker"/>
         <key key="brand" value="BalíkoBOX"/>
         <key key="brand:wikidata" value="Q131136953" match="keyvalue"/>
+        <text key="branch" text="Lokalita/umiestnenie boxu"/>
         <key key="colour" value="gold" match="none"/>
         <key key="name" value="BalíkoBOX" match="keyvalue"/>
         <text key="opening_hours" default="24/7" text="Opening Hours"/>
@@ -71,9 +72,9 @@
         <label text="balíkovo box"/>
         <space/>
         <key key="amenity" value="parcel_locker"/>
-        <text key="branch" text="Lokalita/umiestnenie boxu (podľa mapy)"/>
         <key key="brand" value="balíkovo"/>
         <key key="brand:wikidata" value="Q132188077" match="keyvalue"/>
+        <text key="branch" text="Lokalita/umiestnenie boxu (podľa mapy)"/>
         <key key="colour" value="darkslategrey" match="none"/>
         <key key="name" value="balíkovo" match="keyvalue"/>
         <text key="opening_hours" default="24/7" text="Opening Hours"/>
@@ -107,9 +108,9 @@
         <label text="GLS Balíkomat"/>
         <space/>
         <key key="amenity" value="parcel_locker"/>
-        <text key="branch" text="Lokalita/umiestnenie boxu (podľa mapy)"/>
         <key key="brand" value="GLS Balíkomat"/>
         <key key="brand:wikidata" value="Q366182" match="keyvalue"/>
+        <text key="branch" text="Lokalita/umiestnenie boxu (podľa mapy)"/>
         <key key="colour" value="white" match="none"/>
         <key key="name" value="GLS Balíkomat" match="keyvalue"/>
         <text key="opening_hours" default="24/7" text="Opening Hours"/>
@@ -134,7 +135,7 @@
         <key key="parcel_locker:type" value="cabinet" match="none"/>
         <key key="parcel_mail_in" value="yes" match="none"/>
         <key key="parcel_pickup" value="yes" match="none"/>
-        <key key="website" value="https://www.tamburi.sk/boxy"/>
+        <key key="website" value="https://www.tamburi.sk/boxy" match="keyvalue"/>
         <link href="https://www.tamburi.sk/boxy" sk.text="Mapa boxov" text="Map"/>
       </item>
       <item icon="https://www.packeta.hu/favicon.svg" name="Z-Box (Packeta)" type="node,closedway">
@@ -143,6 +144,7 @@
         <key key="amenity" value="parcel_locker"/>
         <key key="brand" value="Z-Box"/>
         <key key="brand:wikidata" value="Q121537464" match="keyvalue"/>
+        <text key="branch" text="Lokalita/umiestnenie boxu (podľa mapy)"/>
         <combo key="colour" text="Color" values="red,white,navajowhite,silver,lightgreen,darkolivegreen" sk.display_values="červená,biela,hnedooranžová,sivá,svetlozelená,tmavozelená" match="none"/>
         <key key="name" value="Z-Box" match="keyvalue"/>
         <text key="opening_hours" default="24/7" text="Opening Hours"/>
@@ -152,9 +154,11 @@
         <key key="parcel_mail_in" value="yes" match="none"/>
         <key key="parcel_pickup" value="yes" match="none"/>
         <text key="ref" text="Reference"/>
-        <text default="https://www.packeta.sk/pobocky/" key="website" sk.text="URL Boxu" text="Locker URL"/>
+        <text key="website" default="https://www.packeta.sk/pobocky/" sk.text="URL Boxu" text="Locker URL"/>
+        <link href="https://www.packeta.sk/pobocky/" sk.text="Mapa Balíkomatov" text="Map"/>
       </item>
     </group>
+
     <group icon="https://wiki.openstreetmap.org/w/images/d/d5/Rental-bicycle-16.svg" sk.name="Požičovňa/prenájom bicyklov" name="Bicycle Rental">
       <item icon="https://slovnaftbajk.sk/favicon-32x32.png" name="SlovnaftBAjk" type="node">
         <label text="SlovnaftBAjk"/>
