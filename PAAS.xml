@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Aceman444" version="0.2026-03-01" shortdescription="PAAS Bratislava parking" description="Presets for PAAS parking system in the city of Bratislava, Slovakia">
+	<chunk id="paas_zone">
+		<combo key="zone:paas" text="Parking zone code" sk.text="Kód zóny parkovania" values="NM1,NM4,PE1,RA1,RU1,RU2,RU3,RU1;RU2;RU3,SM0,SM1,SM0;SM1,SM0-X1,SM0-X2,SM1;RU1,SM1;NM1" editable="false" match="key!"/>
+		<label text="(Combinations of multiple zones on a single parking area do exist)" sk.text="(Existujú aj kombinácie viacerých zón na jednom parkovisku)"/>
+	</chunk>
+	<chunk id="paas_brand">
+		<key   key="operator:type" value="public" match="keyvalue"/>
+		<key   key="brand" value="PAAS"/>
+	</chunk>
+	<chunk id="paas_mesto">
+		<key   key="operator" value="Hlavné mesto Slovenskej republiky Bratislava" match="keyvalue"/>
+		<key   key="website" value="https://www.paas.sk/" match="keyvalue"/>
+	</chunk>
+	<group name="PAAS">
+		<item name="Parkovisko PAAS" type="closedway,node" icon="presets/vehicle/parking/parking.svg">
+			<label text="PAAS Bratislava - parking for residents and visitors" sk.text="PAAS Bratislava - parkovisko na ulici pre rezidentov aj návštevníkov"/>
+			<space/>
+			<key   key="amenity" value="parking"/>
+			<reference ref="paas_brand"/>
+			<reference ref="paas_mesto"/>
+			<key   key="access" value="yes" match="none"/>
+			<combo key="parking" text="Type of parking" values="surface,street_side,lane,on_kerb,half_on_kerb" values_context="parking" match="key"/>
+			<reference ref="paas_zone"/>
+			<text  key="ref:paas" text="Parking segment code (e.g. 1001,2001,5001)" sk.text="Kód úseku parkovania (napr. 1001,2001,5001)" match="key!"/>
+			<key   key="fee" value="yes" match="none"/>
+			<combo key="fee:conditional" text="Čas spoplatnenia" delimiter="|"
+				sk.display_values="Po-Pi 00:00-18:00|Po-Pi 08:00-24:00|Po-Pi 12:00-24:00|Po-Ne 08:00-24:00"
+				en.display_values="Mo-Fr 00:00-18:00|Mo-Fr 08:00-24:00|Mo-Fr 12:00-24:00|Mo-Su 08:00-24:00"
+				values="no @ residents; no @ (Mo-Fr 18:00-24:00; Sa,Su 00:00-24:00)|no @ residents; no @ (Mo-Fr 00:00-08:00; Sa,Su 00:00-24:00)|no @ residents; no @ (Mo-Fr 00:00-12:00; Sa,Su 00:00-24:00)|no @ residents; no @ (Mo-Su 00:00-08:00)" values_sort="false" editable="false"/>
+			<combo key="charge:conditional" text="Fee" delimiter="|"
+				sk.display_values="Po-Pi 1,00 EUR/hod|Po-Pi 1,50 EUR/hod|Po-Ne 1,50 EUR/hod|Po-Pi 2,00 EUR/hod|Po-Pi 2,00 EUR/hod, So-Ne 1,00 EUR/hod"
+				values="1 EUR/hour @ (Mo-Fr)|1.5 EUR/hour @ (Mo-Fr)|1.5 EUR/hour @ (Mo-Su)|2 EUR/hour @ (Mo-Fr)|2 EUR/hour @ (Mo-Fr); 1 EUR/hour @ (Sa-Su,PH)" values_sort="false" editable="false"/>
+			<optional>
+				<text  key="capacity" text="Capacity (overall)"/>
+				<text  key="capacity:disabled" text="Spaces for Disabled"/>
+			</optional>
+		</item>
+		<item name="Parkovisko PAAS - len rezidenti" type="closedway,node" icon="presets/vehicle/parking/parking.svg">
+			<label text="PAAS Bratislava - parking zone for residents only" sk.text="PAAS Bratislava - zóna len pre rezidentov"/>
+			<space/>
+			<key   key="amenity" value="parking"/>
+			<reference ref="paas_brand"/>
+			<reference ref="paas_mesto"/>
+			<key   key="access" value="residents"/>
+			<combo key="parking" text="Type of parking" values="surface,street_side,lane" values_context="parking"/>
+			<reference ref="paas_zone"/>
+			<key   key="fee" value="no" match="none"/>
+			<optional>
+				<text  key="capacity" text="Capacity (overall)"/>
+				<text  key="capacity:disabled" text="Spaces for Disabled"/>
+			</optional>
+		</item>
+		<item name="Parkovisko PAAS - veľké" type="closedway,node" icon="presets/vehicle/parking/parking.svg">
+			<label text="PAAS Bratislava - parking facility" sk.text="PAAS Bratislava - veľké parkovisko"/>
+			<space/>
+			<key   key="amenity" value="parking"/>
+			<reference ref="paas_brand"/>
+			<key   key="access" value="yes" match="keyvalue"/>
+			<combo key="parking" text="Type of parking" values="surface,underground" values_context="parking"/>
+			<key   key="opening_hours" value="24/7" match="keyvalue!"/>
+			<key   key="fee" value="yes" match="none"/>
+			<text  key="name" text="Name" match="key!"/>
+			<combo key="operator" text="Operator" values="Hlavné mesto Slovenskej republiky Bratislava;Mestský parkovací systém, spol s r.o." delimiter=";"/>
+			<combo key="website" text="Website" value="https://www.paas.sk/,https://mepasys.sk/"/>
+			<optional>
+				<text  key="capacity" text="Capacity (overall)"/>
+				<text  key="capacity:disabled" text="Spaces for Disabled"/>
+			</optional>
+		</item>
+		<item name="Parkovisko PAAS - záchytné" type="closedway,node" icon="presets/vehicle/parking/parking.svg">
+			<label text="PAAS Bratislava - park+ride parking" sk.text="PAAS Bratislava - záchytné parkovisko"/>
+			<space/>
+			<key   key="amenity" value="parking"/>
+			<reference ref="paas_brand"/>
+			<key   key="operator" value="Hlavné mesto Slovenskej republiky Bratislava" match="keyvalue"/>
+			<key   key="website" value="https://www.paas.sk/zachytne-parkoviska/" match="keyvalue"/>
+			<key   key="access" value="yes" match="none"/>
+			<key   key="parking" value="surface" match="keyvalue"/>
+			<key   key="park_ride" value="yes"/>
+			<key   key="opening_hours" value="24/7" match="keyvalue"/>
+			<key   key="fee" value="no" match="none"/>
+			<text  key="name" text="Name"/>
+			<optional>
+				<text  key="capacity" text="Capacity (overall)"/>
+				<text  key="capacity:disabled" text="Spaces for Disabled"/>
+			</optional>
+		</item>
+		<item name="Parkovisko PAAS - parkomat" type="node" icon="presets/vehicle/parking/parking.svg">
+			<label text="PAAS Bratislava - parking payment machine" sk.text="PAAS Bratislava - parkomat"/>
+			<space/>
+			<key   key="amenity" value="vending_machine"/>
+			<key   key="vending" value="parking_tickets"/>
+			<text  key="ref" text="Number" match="none"/>
+			<reference ref="paas_brand"/>
+			<reference ref="paas_mesto"/>
+			<key   key="payment:cash" value="no" match="keyvalue"/>
+			<key   key="payment:cards" value="yes" match="keyvalue"/>
+			<key   key="payment:contactless" value="yes" match="keyvalue"/>
+		</item>
+	</group>
+</presets>
