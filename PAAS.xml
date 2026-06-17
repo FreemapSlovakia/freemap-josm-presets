@@ -1,57 +1,67 @@
-<?xml version="1.0" ?>
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Aceman444" version="0.2026-03-01" shortdescription="PAAS Bratislava parking" description="Presets for PAAS parking system in the city of Bratislava, Slovakia">
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Aceman444" version="0.1_2026-04-16"
+	shortdescription="PAAS Bratislava parking" description="Presets for PAAS parking system in the city of Bratislava, Slovakia"
+	sk.shortdescription="Parkovanie PAAS Bratislava" sk.description="Predvoľby značenia pre Parkovací asistent PAAS v Bratislave"
+	icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAzUExURYjGY4jGY4jHZInHY4nHZIbDY3qzYHSpXxYlSzlWU1F5WIjGZFyIWiE1TmaVXIG8Yv///xb90UQAAAABdFJOU8dF5o91AAAAAWJLR0QQlbINLAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+oEEBERMLZ2ueAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDQtMTZUMTc6MTc6MzIrMDA6MDCZDKZqAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA0LTE2VDE3OjEyOjQ5KzAwOjAwBrqIcQAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNC0xNlQxNzoxNzo0OCswMDowMBHxaV4AAAD+SURBVDjLrVPtEoQgCBQqRdN6/7c9BKz0ru5+3M5EHzDsLphz8AjnABV8B+A4zXN9q88V6DSHIJE/1jxIteTBWWLxA8CaNAmBesRDhPZHH3sk6yAaDJPEGVdrrtcXl/BDAZqNai9n71MKoK6POQgVztOEhVJ1kE0BvlEUorRFov1OA3cAWArlrsB2wHEttPE91rJj2EOHjaMW3FDwhD1J2WkT2raRXZSYOCxKYS6EX1fMFOyhBMCm4IOGEB5GXTr266jtTKlNvKTxhw7XlxD2TxSnTbQdobnApsGWdyWHdaDgc9AhjxruT7Vp2LcBRop/OLRtjmIPzudjkt9+/xcCVQsjsR+d+QAAAABJRU5ErkJggg==">
 	<chunk id="paas_zone">
-		<combo key="zone:paas" text="Parking zone code" sk.text="Kód zóny parkovania" values="NM1,NM4,PE1,RA1,RU1,RU2,RU3,RU1;RU2;RU3,SM0,SM1,SM0;SM1,SM0-X1,SM0-X2,SM1;RU1,SM1;NM1" editable="false" match="key!"/>
+<!--		<combo key="zone" text="Parking zone code" sk.text="Kód zóny parkovania" values="DU1,KV1,KV1a,KV2,LA1,NM1,NM2,NM3,NM4,PE1,RA1,RU1,RU2,RU3,RU1;RU2;RU3,SM0,SM1,SM2,SM5,SM0;SM1,SM0-X1,SM0-X2,SM1;RU1,SM1;NM1" editable="false" match="key!"/> -->
+		<multiselect key="zone" text="Parking zone code" sk.text="Kód zóny parkovania" values="DU1;KV1;KV1a;KV2;LA1;NM1;NM2;NM3;NM4;PE1;RA1;RU1;RU2;RU3;SM0;SM1;SM2;SM5;SM0-X1;SM0-X2" editable="false" rows="3" match="key!"/>
 		<label text="(Combinations of multiple zones on a single parking area do exist)" sk.text="(Existujú aj kombinácie viacerých zón na jednom parkovisku)"/>
 	</chunk>
 	<chunk id="paas_brand">
-		<key   key="operator:type" value="public" match="keyvalue"/>
 		<key   key="brand" value="PAAS"/>
-	</chunk>
-	<chunk id="paas_mesto">
-		<key   key="operator" value="Hlavné mesto Slovenskej republiky Bratislava" match="keyvalue"/>
+		<key   key="brand:wikidata" value="Q136769463" match="keyvalue"/>
+		<key   key="operator" value="PAAS, s.r.o." match="keyvalue"/>
+		<key   key="operator:type" value="public" match="none"/>
 		<key   key="website" value="https://www.paas.sk/" match="keyvalue"/>
 	</chunk>
-	<group name="PAAS">
-		<item name="Parkovisko PAAS" type="closedway,node" icon="presets/vehicle/parking/parking.svg">
+	<chunk id="paas_kapacita">
+		<text  key="capacity" text="Capacity (overall)"/>
+		<text  key="capacity:disabled" text="Spaces for Disabled"/>
+	</chunk>
+	<group name="PAAS" regions="SK"
+		icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAzUExURYjGY4jGY4jHZInHY4nHZIbDY3qzYHSpXxYlSzlWU1F5WIjGZFyIWiE1TmaVXIG8Yv///xb90UQAAAABdFJOU8dF5o91AAAAAWJLR0QQlbINLAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+oEEBERMLZ2ueAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDQtMTZUMTc6MTc6MzIrMDA6MDCZDKZqAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA0LTE2VDE3OjEyOjQ5KzAwOjAwBrqIcQAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNC0xNlQxNzoxNzo0OCswMDowMBHxaV4AAAD+SURBVDjLrVPtEoQgCBQqRdN6/7c9BKz0ru5+3M5EHzDsLphz8AjnABV8B+A4zXN9q88V6DSHIJE/1jxIteTBWWLxA8CaNAmBesRDhPZHH3sk6yAaDJPEGVdrrtcXl/BDAZqNai9n71MKoK6POQgVztOEhVJ1kE0BvlEUorRFov1OA3cAWArlrsB2wHEttPE91rJj2EOHjaMW3FDwhD1J2WkT2raRXZSYOCxKYS6EX1fMFOyhBMCm4IOGEB5GXTr266jtTKlNvKTxhw7XlxD2TxSnTbQdobnApsGWdyWHdaDgc9AhjxruT7Vp2LcBRop/OLRtjmIPzudjkt9+/xcCVQsjsR+d+QAAAABJRU5ErkJggg==">
+		<item name="Parkovisko PAAS" type="closedway,node"
+		icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAzUExURYjGY4jGY4jHZInHY4nHZIbDY3qzYHSpXxYlSzlWU1F5WIjGZFyIWiE1TmaVXIG8Yv///xb90UQAAAABdFJOU8dF5o91AAAAAWJLR0QQlbINLAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+oEEBERMLZ2ueAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDQtMTZUMTc6MTc6MzIrMDA6MDCZDKZqAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA0LTE2VDE3OjEyOjQ5KzAwOjAwBrqIcQAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNC0xNlQxNzoxNzo0OCswMDowMBHxaV4AAAD+SURBVDjLrVPtEoQgCBQqRdN6/7c9BKz0ru5+3M5EHzDsLphz8AjnABV8B+A4zXN9q88V6DSHIJE/1jxIteTBWWLxA8CaNAmBesRDhPZHH3sk6yAaDJPEGVdrrtcXl/BDAZqNai9n71MKoK6POQgVztOEhVJ1kE0BvlEUorRFov1OA3cAWArlrsB2wHEttPE91rJj2EOHjaMW3FDwhD1J2WkT2raRXZSYOCxKYS6EX1fMFOyhBMCm4IOGEB5GXTr266jtTKlNvKTxhw7XlxD2TxSnTbQdobnApsGWdyWHdaDgc9AhjxruT7Vp2LcBRop/OLRtjmIPzudjkt9+/xcCVQsjsR+d+QAAAABJRU5ErkJggg==">
 			<label text="PAAS Bratislava - parking for residents and visitors" sk.text="PAAS Bratislava - parkovisko na ulici pre rezidentov aj návštevníkov"/>
 			<space/>
 			<key   key="amenity" value="parking"/>
 			<reference ref="paas_brand"/>
-			<reference ref="paas_mesto"/>
 			<key   key="access" value="yes" match="none"/>
 			<combo key="parking" text="Type of parking" values="surface,street_side,lane,on_kerb,half_on_kerb" values_context="parking" match="key"/>
 			<reference ref="paas_zone"/>
-			<text  key="ref:paas" text="Parking segment code (e.g. 1001,2001,5001)" sk.text="Kód úseku parkovania (napr. 1001,2001,5001)" match="key!"/>
+			<text  key="ref" text="Parking segment code (e.g. 1001,2001,5001)" sk.text="Kód úseku parkovania (napr. 1001,2001,5001)" match="key!"/>
 			<key   key="fee" value="yes" match="none"/>
 			<combo key="fee:conditional" text="Čas spoplatnenia" delimiter="|"
-				sk.display_values="Po-Pi 00:00-18:00|Po-Pi 08:00-24:00|Po-Pi 12:00-24:00|Po-Ne 08:00-24:00"
+				sk.display_values="Po-Pi 00:00-18:00|Po-Pi 08:00-24:00|Po-Pi 12:00-24:00|Po-Ne 08:00-24:00|Po-Pi 14:00-24:00,Ne 18:00-24:00"
 				en.display_values="Mo-Fr 00:00-18:00|Mo-Fr 08:00-24:00|Mo-Fr 12:00-24:00|Mo-Su 08:00-24:00"
-				values="no @ residents; no @ (Mo-Fr 18:00-24:00; Sa,Su 00:00-24:00)|no @ residents; no @ (Mo-Fr 00:00-08:00; Sa,Su 00:00-24:00)|no @ residents; no @ (Mo-Fr 00:00-12:00; Sa,Su 00:00-24:00)|no @ residents; no @ (Mo-Su 00:00-08:00)" values_sort="false" editable="false"/>
+				values="no @ residents; no @ (Mo-Fr 18:00-24:00; Sa,Su 00:00-24:00)|no @ residents; no @ (Mo-Fr 00:00-08:00; Sa,Su 00:00-24:00)|no @ residents; no @ (Mo-Fr 00:00-12:00; Sa,Su 00:00-24:00)|no @ residents; no @ (Mo-Su 00:00-08:00)|no @ residents; no @ (Mo-Fr 00:00-14:00; Sa 00:00-24:00; Su 00:00-18:00)" values_sort="false" editable="false"/>
 			<combo key="charge:conditional" text="Fee" delimiter="|"
-				sk.display_values="Po-Pi 1,00 EUR/hod|Po-Pi 1,50 EUR/hod|Po-Ne 1,50 EUR/hod|Po-Pi 2,00 EUR/hod|Po-Pi 2,00 EUR/hod, So-Ne 1,00 EUR/hod"
-				values="1 EUR/hour @ (Mo-Fr)|1.5 EUR/hour @ (Mo-Fr)|1.5 EUR/hour @ (Mo-Su)|2 EUR/hour @ (Mo-Fr)|2 EUR/hour @ (Mo-Fr); 1 EUR/hour @ (Sa-Su,PH)" values_sort="false" editable="false"/>
+				sk.display_values="Po-Ne 0,50 EUR/hod|Po-Pi 1,00 EUR/hod|Po-Pi 1,50 EUR/hod|Po-Ne 1,50 EUR/hod|Po-Pi 2,00 EUR/hod|Po-Pi 2,00 EUR/hod, So-Ne 1,00 EUR/hod"
+				values="0.5 EUR/hour @ (Mo-Su)|1 EUR/hour @ (Mo-Fr)|1.5 EUR/hour @ (Mo-Fr)|1.5 EUR/hour @ (Mo-Su)|2 EUR/hour @ (Mo-Fr)|2 EUR/hour @ (Mo-Fr); 1 EUR/hour @ (Sa-Su,PH)" values_sort="false" editable="false"/>
+			<key   key="payment:sms" value="yes" match="none"/>
+			<key   key="payment:app" value="yes" match="none"/>
 			<optional>
-				<text  key="capacity" text="Capacity (overall)"/>
-				<text  key="capacity:disabled" text="Spaces for Disabled"/>
+				<reference ref="paas_kapacita"/>
 			</optional>
 		</item>
-		<item name="Parkovisko PAAS - len rezidenti" type="closedway,node" icon="presets/vehicle/parking/parking.svg">
+		<item name="Parkovisko PAAS - len rezidenti" type="closedway,node"
+			icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAzUExURYjGY4jGY4jHZInHY4nHZIbDY3qzYHSpXxYlSzlWU1F5WIjGZFyIWiE1TmaVXIG8Yv///xb90UQAAAABdFJOU8dF5o91AAAAAWJLR0QQlbINLAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+oEEBERMLZ2ueAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDQtMTZUMTc6MTc6MzIrMDA6MDCZDKZqAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA0LTE2VDE3OjEyOjQ5KzAwOjAwBrqIcQAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNC0xNlQxNzoxNzo0OCswMDowMBHxaV4AAAD+SURBVDjLrVPtEoQgCBQqRdN6/7c9BKz0ru5+3M5EHzDsLphz8AjnABV8B+A4zXN9q88V6DSHIJE/1jxIteTBWWLxA8CaNAmBesRDhPZHH3sk6yAaDJPEGVdrrtcXl/BDAZqNai9n71MKoK6POQgVztOEhVJ1kE0BvlEUorRFov1OA3cAWArlrsB2wHEttPE91rJj2EOHjaMW3FDwhD1J2WkT2raRXZSYOCxKYS6EX1fMFOyhBMCm4IOGEB5GXTr266jtTKlNvKTxhw7XlxD2TxSnTbQdobnApsGWdyWHdaDgc9AhjxruT7Vp2LcBRop/OLRtjmIPzudjkt9+/xcCVQsjsR+d+QAAAABJRU5ErkJggg==">
 			<label text="PAAS Bratislava - parking zone for residents only" sk.text="PAAS Bratislava - zóna len pre rezidentov"/>
 			<space/>
 			<key   key="amenity" value="parking"/>
 			<reference ref="paas_brand"/>
-			<reference ref="paas_mesto"/>
-			<key   key="access" value="residents"/>
+			<key   key="access" value="private"/>
+			<key   key="private" value="residents"/>
 			<combo key="parking" text="Type of parking" values="surface,street_side,lane" values_context="parking"/>
 			<reference ref="paas_zone"/>
 			<key   key="fee" value="no" match="none"/>
 			<optional>
-				<text  key="capacity" text="Capacity (overall)"/>
-				<text  key="capacity:disabled" text="Spaces for Disabled"/>
+				<reference ref="paas_kapacita"/>
 			</optional>
 		</item>
-		<item name="Parkovisko PAAS - veľké" type="closedway,node" icon="presets/vehicle/parking/parking.svg">
+		<item name="Parkovisko PAAS - veľké" type="closedway,node"
+			icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAzUExURYjGY4jGY4jHZInHY4nHZIbDY3qzYHSpXxYlSzlWU1F5WIjGZFyIWiE1TmaVXIG8Yv///xb90UQAAAABdFJOU8dF5o91AAAAAWJLR0QQlbINLAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+oEEBERMLZ2ueAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDQtMTZUMTc6MTc6MzIrMDA6MDCZDKZqAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA0LTE2VDE3OjEyOjQ5KzAwOjAwBrqIcQAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNC0xNlQxNzoxNzo0OCswMDowMBHxaV4AAAD+SURBVDjLrVPtEoQgCBQqRdN6/7c9BKz0ru5+3M5EHzDsLphz8AjnABV8B+A4zXN9q88V6DSHIJE/1jxIteTBWWLxA8CaNAmBesRDhPZHH3sk6yAaDJPEGVdrrtcXl/BDAZqNai9n71MKoK6POQgVztOEhVJ1kE0BvlEUorRFov1OA3cAWArlrsB2wHEttPE91rJj2EOHjaMW3FDwhD1J2WkT2raRXZSYOCxKYS6EX1fMFOyhBMCm4IOGEB5GXTr266jtTKlNvKTxhw7XlxD2TxSnTbQdobnApsGWdyWHdaDgc9AhjxruT7Vp2LcBRop/OLRtjmIPzudjkt9+/xcCVQsjsR+d+QAAAABJRU5ErkJggg==">
 			<label text="PAAS Bratislava - parking facility" sk.text="PAAS Bratislava - veľké parkovisko"/>
 			<space/>
 			<key   key="amenity" value="parking"/>
@@ -61,19 +71,17 @@
 			<key   key="opening_hours" value="24/7" match="keyvalue!"/>
 			<key   key="fee" value="yes" match="none"/>
 			<text  key="name" text="Name" match="key!"/>
-			<combo key="operator" text="Operator" values="Hlavné mesto Slovenskej republiky Bratislava;Mestský parkovací systém, spol s r.o." delimiter=";"/>
 			<combo key="website" text="Website" value="https://www.paas.sk/,https://mepasys.sk/"/>
 			<optional>
-				<text  key="capacity" text="Capacity (overall)"/>
-				<text  key="capacity:disabled" text="Spaces for Disabled"/>
+				<reference ref="paas_kapacita"/>
 			</optional>
 		</item>
-		<item name="Parkovisko PAAS - záchytné" type="closedway,node" icon="presets/vehicle/parking/parking.svg">
+		<item name="Parkovisko PAAS - záchytné" type="closedway,node"
+			icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAzUExURYjGY4jGY4jHZInHY4nHZIbDY3qzYHSpXxYlSzlWU1F5WIjGZFyIWiE1TmaVXIG8Yv///xb90UQAAAABdFJOU8dF5o91AAAAAWJLR0QQlbINLAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+oEEBERMLZ2ueAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDQtMTZUMTc6MTc6MzIrMDA6MDCZDKZqAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA0LTE2VDE3OjEyOjQ5KzAwOjAwBrqIcQAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNC0xNlQxNzoxNzo0OCswMDowMBHxaV4AAAD+SURBVDjLrVPtEoQgCBQqRdN6/7c9BKz0ru5+3M5EHzDsLphz8AjnABV8B+A4zXN9q88V6DSHIJE/1jxIteTBWWLxA8CaNAmBesRDhPZHH3sk6yAaDJPEGVdrrtcXl/BDAZqNai9n71MKoK6POQgVztOEhVJ1kE0BvlEUorRFov1OA3cAWArlrsB2wHEttPE91rJj2EOHjaMW3FDwhD1J2WkT2raRXZSYOCxKYS6EX1fMFOyhBMCm4IOGEB5GXTr266jtTKlNvKTxhw7XlxD2TxSnTbQdobnApsGWdyWHdaDgc9AhjxruT7Vp2LcBRop/OLRtjmIPzudjkt9+/xcCVQsjsR+d+QAAAABJRU5ErkJggg==">
 			<label text="PAAS Bratislava - park+ride parking" sk.text="PAAS Bratislava - záchytné parkovisko"/>
 			<space/>
 			<key   key="amenity" value="parking"/>
 			<reference ref="paas_brand"/>
-			<key   key="operator" value="Hlavné mesto Slovenskej republiky Bratislava" match="keyvalue"/>
 			<key   key="website" value="https://www.paas.sk/zachytne-parkoviska/" match="keyvalue"/>
 			<key   key="access" value="yes" match="none"/>
 			<key   key="parking" value="surface" match="keyvalue"/>
@@ -82,18 +90,17 @@
 			<key   key="fee" value="no" match="none"/>
 			<text  key="name" text="Name"/>
 			<optional>
-				<text  key="capacity" text="Capacity (overall)"/>
-				<text  key="capacity:disabled" text="Spaces for Disabled"/>
+				<reference ref="paas_kapacita"/>
 			</optional>
 		</item>
-		<item name="Parkovisko PAAS - parkomat" type="node" icon="presets/vehicle/parking/parking.svg">
+		<item name="Parkovisko PAAS - parkomat" type="node"
+			icon="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAzUExURYjGY4jGY4jHZInHY4nHZIbDY3qzYHSpXxYlSzlWU1F5WIjGZFyIWiE1TmaVXIG8Yv///xb90UQAAAABdFJOU8dF5o91AAAAAWJLR0QQlbINLAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+oEEBERMLZ2ueAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDQtMTZUMTc6MTc6MzIrMDA6MDCZDKZqAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA0LTE2VDE3OjEyOjQ5KzAwOjAwBrqIcQAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wNC0xNlQxNzoxNzo0OCswMDowMBHxaV4AAAD+SURBVDjLrVPtEoQgCBQqRdN6/7c9BKz0ru5+3M5EHzDsLphz8AjnABV8B+A4zXN9q88V6DSHIJE/1jxIteTBWWLxA8CaNAmBesRDhPZHH3sk6yAaDJPEGVdrrtcXl/BDAZqNai9n71MKoK6POQgVztOEhVJ1kE0BvlEUorRFov1OA3cAWArlrsB2wHEttPE91rJj2EOHjaMW3FDwhD1J2WkT2raRXZSYOCxKYS6EX1fMFOyhBMCm4IOGEB5GXTr266jtTKlNvKTxhw7XlxD2TxSnTbQdobnApsGWdyWHdaDgc9AhjxruT7Vp2LcBRop/OLRtjmIPzudjkt9+/xcCVQsjsR+d+QAAAABJRU5ErkJggg==">
 			<label text="PAAS Bratislava - parking payment machine" sk.text="PAAS Bratislava - parkomat"/>
 			<space/>
 			<key   key="amenity" value="vending_machine"/>
 			<key   key="vending" value="parking_tickets"/>
-			<text  key="ref" text="Number" match="none"/>
 			<reference ref="paas_brand"/>
-			<reference ref="paas_mesto"/>
+			<text  key="ref" text="Number" match="none"/>
 			<key   key="payment:cash" value="no" match="keyvalue"/>
 			<key   key="payment:cards" value="yes" match="keyvalue"/>
 			<key   key="payment:contactless" value="yes" match="keyvalue"/>
